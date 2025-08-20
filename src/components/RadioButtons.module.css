@@ -1,0 +1,21 @@
+.containerIcon {
+  width: 40px;
+  border-radius: 100px;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.radioButtons {
+  height: 48px;
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  right: 0;
+  bottom: -46px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}

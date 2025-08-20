@@ -1,0 +1,26 @@
+.label {
+  position: relative;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #fbf8f5;
+  text-align: center;
+}
+.primaryButtonMotionmentor {
+  cursor: pointer;
+  border: 0;
+  padding: 18px 85px;
+  background-color: transparent;
+  width: 324px;
+  height: 48px;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #4acfff, #5f29fe);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}

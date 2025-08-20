@@ -1,0 +1,291 @@
+.yourDanceJourneyContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+}
+.trackYourProgress {
+  margin: 0;
+}
+.trackYourProgressContainer {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.journeySubtitle {
+  width: 828px;
+  flex-direction: row;
+  padding: 0 3px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: Poppins;
+}
+.journeyHeader,
+.journeyHeaderWrapper,
+.journeySubtitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.journeyHeader {
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+}
+.journeyHeaderWrapper {
+  width: 848px;
+  flex-direction: row;
+  padding: 0 1px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 56px;
+  color: #fbf8f5;
+  font-family: "Playfair Display";
+}
+.yourMonth {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.frameChild {
+  width: 276px;
+  height: 123px;
+  position: relative;
+  border-radius: 8px;
+  background-color: #1e2238;
+  display: none;
+}
+.practiceStreak {
+  width: 138px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.practiceStreakWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 4px;
+  text-align: center;
+  font-size: 16px;
+  color: #fbf8f5;
+  font-family: "Playfair Display";
+}
+.verifiedIcon {
+  width: 18px;
+  position: relative;
+  max-height: 100%;
+  z-index: 1;
+}
+.verifiedWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.daysInA {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 93px;
+  z-index: 1;
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  gap: 5px;
+}
+.frameWrapper {
+  padding: 0 14px 0 12px;
+}
+.earnedOnMay {
+  position: relative;
+  line-height: 22px;
+  z-index: 1;
+}
+.rectangleParent {
+  flex: 0.6068;
+  border-radius: 8px;
+  background-color: #1e2238;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 26px 67px;
+  box-sizing: border-box;
+  gap: 4px;
+  min-width: 243px;
+  max-width: 276px;
+}
+.achievementDetails,
+.achievementDetailsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.achievementDetails {
+  flex: 1;
+  justify-content: center;
+  gap: 24px;
+}
+.achievementDetailsWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 2px;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: var(--text-grey);
+  font-family: Poppins;
+}
+.monthlyView {
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+  gap: 24px;
+  text-align: left;
+  font-size: 28px;
+  color: #fbf8f5;
+  font-family: "Playfair Display";
+}
+.dashboardContent,
+.monthlyView,
+.progressContainerParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.progressContainerParent {
+  align-self: stretch;
+  gap: 40px;
+}
+.dashboardContent {
+  padding: 0 0 160px 20px;
+  box-sizing: border-box;
+  gap: 64px;
+}
+.footerAreaChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.motionMentorAll {
+  position: relative;
+  line-height: 22px;
+}
+.copyrightArea {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 589px 0 590px;
+}
+.footerArea,
+.homeDesktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footerArea {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 24px;
+  text-align: left;
+  font-size: 14px;
+  color: #fbf8f5;
+  font-family: Urbanist;
+}
+.homeDesktop {
+  width: 100%;
+  position: relative;
+  background-color: #0f0a1a;
+  overflow: hidden;
+  align-items: flex-end;
+  padding: 0 0 80px;
+  box-sizing: border-box;
+  gap: 65px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1400px) {
+  .dashboardContent {
+    padding-bottom: 104px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .achievementDetails {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 825px) {
+  .yourDanceJourneyContainer {
+    font-size: 45px;
+  }
+  .progressContainerParent {
+    gap: 20px;
+  }
+  .dashboardContent {
+    gap: 32px;
+    padding-bottom: 68px;
+    box-sizing: border-box;
+  }
+  .copyrightArea {
+    padding-left: 295px;
+    padding-right: 294px;
+    box-sizing: border-box;
+  }
+  .homeDesktop {
+    gap: 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .yourDanceJourneyContainer {
+    font-size: 34px;
+  }
+  .trackYourProgressContainer {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .yourMonth {
+    font-size: 22px;
+  }
+  .rectangleParent {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    flex: 1;
+  }
+  .dashboardContent {
+    gap: 16px;
+  }
+  .copyrightArea {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .homeDesktop {
+    gap: 16px;
+  }
+}

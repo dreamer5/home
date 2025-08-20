@@ -1,0 +1,76 @@
+.frameChild {
+  width: 276px;
+  height: 123px;
+  position: relative;
+  border-radius: 8px;
+  background-color: #1e2238;
+  display: none;
+}
+.firstChallengeComplete {
+  width: 213px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.iconHolders {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 8px 0 13px;
+  text-align: center;
+  font-size: 16px;
+  color: #fbf8f5;
+  font-family: "Playfair Display";
+}
+.verifiedIcon {
+  width: 18px;
+  position: relative;
+  max-height: 100%;
+  z-index: 1;
+}
+.statusIndicator {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.completedHipHop {
+  position: relative;
+  line-height: 22px;
+  z-index: 1;
+}
+.statusContainers {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 5px;
+}
+.dateIndicators,
+.rectangleParent,
+.statusContainers {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dateIndicators {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 47px 0 46px;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: 8px;
+  background-color: #1e2238;
+  flex-direction: column;
+  padding: 26px 21px;
+  box-sizing: border-box;
+  gap: 4px;
+  min-width: 243px;
+  max-width: 276px;
+  text-align: left;
+  font-size: 12px;
+  color: var(--text-grey);
+  font-family: Poppins;
+}

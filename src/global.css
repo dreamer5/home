@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@400;600;700;800;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@400;400&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* Figma Variables */
+
+  /* Color */
+  --text-grey: #64758b;
+  --White-4-dark-theme: #fcfcf7;
+}

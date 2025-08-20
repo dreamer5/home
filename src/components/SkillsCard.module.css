@@ -1,0 +1,553 @@
+.skillsUnlokedThis {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.seemsLikeYou {
+  width: 294px;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 23px;
+  font-family: Poppins;
+  color: var(--text-grey);
+  display: inline-block;
+}
+.cardHeader,
+.skillsUnlokedThisMonthParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.skillsUnlokedThisMonthParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+}
+.cardHeader {
+  align-self: stretch;
+  height: 141.2px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.chartBackground {
+  height: 517px;
+  width: 349.1px;
+  position: absolute;
+  margin: 0 !important;
+  top: -149px;
+  right: 2px;
+  border-radius: 8px;
+  background-color: #1e2238;
+}
+.cardBody,
+.chartContent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.cardBody {
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.chartContent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.controlAreaChild {
+  height: 13px;
+  width: 27px;
+  position: relative;
+  border-radius: 20px;
+}
+.control {
+  position: relative;
+  line-height: 23px;
+}
+.controlArea {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.legendEntriesChild,
+.legendMarkers {
+  height: 13px;
+  width: 27px;
+  position: relative;
+  border-radius: 20px;
+  background-color: #4acfff;
+}
+.legendEntriesChild {
+  background-color: #5f29fe;
+}
+.cardFooter,
+.chartLeyend {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.chartLeyend {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.cardFooter {
+  height: 81.2px;
+  flex-shrink: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 25px;
+  box-sizing: border-box;
+  z-index: 2;
+  margin-top: -9px;
+  position: relative;
+  text-align: left;
+  font-size: 14px;
+}
+.chartArea {
+  align-self: stretch;
+  flex: 1;
+  text-align: center;
+  font-size: 24px;
+  font-family: Poppins;
+}
+.cardDisplay,
+.cardHeaderArea,
+.chartArea {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.cardHeaderArea {
+  align-self: stretch;
+  flex: 1;
+  gap: 6.7px;
+}
+.cardDisplay {
+  height: 508.1px;
+  padding: 1.1px 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 20px;
+  color: #fbf8f5;
+  font-family: "Playfair Display";
+}
+.frameChild {
+  width: 800px;
+  height: 262px;
+  position: relative;
+  border-radius: 8px;
+  background-color: #1e2238;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.radioButtonsIcon {
+  height: 100%;
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: -46px;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+.radioButtonsIcon1 {
+  height: 48px;
+  width: 48px;
+  z-index: 1;
+}
+.radioButtonsParent {
+  margin: 0 !important;
+  position: absolute;
+  top: 132px;
+  left: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.weeklyGoals {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 100px;
+  z-index: 1;
+}
+.titleDecorationChild {
+  width: 29px;
+  height: 28px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 4;
+}
+.titleDecoration,
+.weeklyGoalsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.titleDecoration {
+  flex-direction: column;
+  padding: 3px 0 0;
+}
+.weeklyGoalsParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 582px;
+}
+.keepGoingYoure {
+  position: relative;
+  line-height: 22px;
+  z-index: 1;
+}
+.frameParent,
+.keepGoingYoureDoingGreatWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.keepGoingYoureDoingGreatWrapper {
+  flex-direction: row;
+  padding: 0 1px;
+  font-size: 16px;
+  font-family: Poppins;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+}
+.complete30Min,
+.join2Community {
+  position: relative;
+  line-height: 22px;
+  z-index: 1;
+}
+.complete30Min {
+  text-decoration: line-through;
+}
+.join2Community {
+  flex: 1;
+}
+.actionTask,
+.actionTaskWrapper,
+.chatButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.chatButton {
+  width: 236px;
+  justify-content: flex-start;
+  position: relative;
+}
+.actionTask,
+.actionTaskWrapper {
+  max-width: 100%;
+}
+.actionTask {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.actionTaskWrapper {
+  width: 698px;
+  justify-content: flex-start;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+.watch5Technique {
+  align-self: stretch;
+  position: relative;
+  text-decoration: line-through;
+  line-height: 22px;
+  z-index: 1;
+}
+.techniqueTask {
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 13px 0 0;
+  box-sizing: border-box;
+}
+.join5Challenges {
+  position: absolute;
+  top: 13px;
+  left: 44px;
+  line-height: 22px;
+  z-index: 1;
+}
+.challengeButton {
+  height: 48px;
+  width: 230px;
+  position: relative;
+}
+.completedWrapper,
+.taskEntryTwo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.taskEntryTwo {
+  width: 648px;
+  justify-content: flex-start;
+  padding: 0 30px;
+  max-width: 100%;
+}
+.completedWrapper {
+  width: 196px;
+  justify-content: flex-end;
+  padding: 0 5px;
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 16px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.frameInner,
+.vectorParent {
+  height: 7px;
+  border-radius: 16px;
+  z-index: 1;
+}
+.frameInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #4acfff, #5f29fe);
+  width: 400px;
+}
+.vectorParent {
+  align-self: stretch;
+  position: relative;
+  background-color: #1a1625;
+}
+.frameGroup,
+.taskEntry,
+.taskList {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  text-align: right;
+  font-size: 14px;
+}
+.taskEntry,
+.taskList {
+  align-items: flex-start;
+  max-width: 100%;
+}
+.taskEntry {
+  flex: 1;
+  flex-direction: column;
+  gap: 12.5px;
+}
+.taskList {
+  width: 753px;
+  flex-direction: row;
+  padding: 0 1px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Poppins;
+}
+.rectangleDiv,
+.rectangleParent {
+  position: relative;
+  border-radius: 8px;
+  background-color: #1e2238;
+  max-width: 100%;
+}
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 16px 37px 19px;
+  box-sizing: border-box;
+  gap: 29px;
+}
+.rectangleDiv {
+  width: 800px;
+  height: 215px;
+  display: none;
+}
+.quickActions {
+  margin: 0;
+  width: 162px;
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Playfair Display";
+  display: inline-block;
+  z-index: 1;
+}
+.frameChild1 {
+  height: 40px;
+  width: 311px;
+  position: relative;
+  box-shadow: 0 1px 3.1px -1px rgba(0, 0, 0, 0.35);
+  border-radius: 4px;
+  background-color: #1a1625;
+  display: none;
+}
+.groupsIcon {
+  width: 24px;
+  position: relative;
+  max-height: 100%;
+  z-index: 1;
+}
+.joinAChallenge {
+  width: 186px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.actionItems,
+.rectangleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleContainer {
+  flex: 1;
+  box-shadow: 0 1px 3.1px -1px rgba(0, 0, 0, 0.35);
+  border-radius: 4px;
+  background-color: #1a1625;
+  padding: 8px 14px;
+  gap: 4px;
+  z-index: 1;
+}
+.actionItems {
+  width: 313px;
+  padding: 0 1px;
+  box-sizing: border-box;
+}
+.rectangleGroup {
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: #1e2238;
+  flex-direction: column;
+  padding: 16px 19px 45px;
+  box-sizing: border-box;
+  gap: 23.5px;
+  font-size: 16px;
+  font-family: Poppins;
+}
+.cardContainer,
+.goalSetting,
+.rectangleGroup,
+.skillsCard {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.goalSetting {
+  flex: 1;
+  flex-direction: column;
+  gap: 40px;
+  min-width: 520px;
+  text-align: left;
+  font-size: 20px;
+  color: #fbf8f5;
+  font-family: "Playfair Display";
+}
+.cardContainer,
+.skillsCard {
+  flex-direction: row;
+}
+.cardContainer {
+  flex: 1;
+  gap: 43px;
+}
+.skillsCard {
+  width: 1205px;
+  padding: 0 3px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1125px) {
+  .cardDisplay {
+    flex: 1;
+  }
+  .cardContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 825px) {
+  .weeklyGoalsParent {
+    gap: 291px;
+    flex-wrap: wrap;
+  }
+  .actionTask {
+    flex-wrap: wrap;
+  }
+  .goalSetting {
+    min-width: 100%;
+  }
+  .cardContainer {
+    gap: 21px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .skillsUnlokedThis {
+    font-size: 16px;
+  }
+  .chartLeyend {
+    flex-wrap: wrap;
+  }
+  .cardDisplay {
+    min-width: 100%;
+  }
+  .weeklyGoals {
+    font-size: 16px;
+  }
+  .weeklyGoalsParent {
+    gap: 145px;
+  }
+  .quickActions {
+    font-size: 16px;
+  }
+  .goalSetting {
+    gap: 20px;
+  }
+}

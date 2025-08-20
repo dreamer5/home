@@ -1,0 +1,98 @@
+.ringIcon {
+  overflow: hidden;
+  object-fit: contain;
+  transform: scale(1.077);
+}
+.ringIcon,
+.ringIcon1,
+.wrapperRing {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.wrapperRing {
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.ringIcon1 {
+  overflow: hidden;
+  object-fit: contain;
+  transform: scale(1.095);
+}
+.wrapperRing1 {
+  height: 80.77%;
+  width: 80.77%;
+  position: absolute;
+  margin: 0 !important;
+  top: 9.62%;
+  right: 9.62%;
+  bottom: 9.62%;
+  left: 9.62%;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.ringIcon2 {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.125);
+}
+.wrapperRing2 {
+  height: 61.54%;
+  width: 61.54%;
+  position: absolute;
+  margin: 0 !important;
+  top: 19.23%;
+  right: 19.23%;
+  bottom: 19.23%;
+  left: 19.23%;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.chartCompletion {
+  margin: 0;
+  width: 51px;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 3;
+}
+.chartGraphic {
+  height: 208px;
+  width: 208px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 88px 78px 88px 79px;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  font-size: 24px;
+  color: #fbf8f5;
+  font-family: Poppins;
+}

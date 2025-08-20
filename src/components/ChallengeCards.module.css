@@ -1,0 +1,836 @@
+.frameChild {
+  height: 648px;
+  width: 805px;
+  position: relative;
+  border-radius: 12px;
+  background-color: #1e2238;
+  display: none;
+  max-width: 100%;
+}
+.frameItem {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frameContainer {
+  width: 185px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 13px 14px 131px;
+  box-sizing: border-box;
+  position: relative;
+}
+.frameInner {
+  width: 561px;
+  height: 163px;
+  position: relative;
+  border-radius: 0 8px 8px 0;
+  background-color: var(--White-4-dark-theme);
+  display: none;
+  max-width: 100%;
+}
+.bySarahMartinez,
+.explosiveJump {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.bySarahMartinez {
+  margin-top: -2px;
+  flex: 1;
+  line-height: 22px;
+}
+.bySarahMartinezWrapper,
+.explosiveJumpParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bySarahMartinezWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0;
+  font-size: 14px;
+  font-family: Poppins;
+}
+.explosiveJumpParent {
+  width: 186px;
+  flex-direction: column;
+}
+.groupIcon {
+  width: 29px;
+  height: 28px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5px 0 0;
+}
+.frameDiv,
+.titleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameDiv {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.titleContainer {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 1px;
+  box-sizing: border-box;
+}
+.scheduleIcon {
+  width: 18px;
+  position: relative;
+  max-height: 100%;
+  z-index: 1;
+}
+.statsIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 7px 0 0;
+}
+.hour {
+  position: relative;
+  line-height: 22px;
+  white-space: pre-wrap;
+  z-index: 1;
+  margin-left: -2px;
+}
+.diversity3Icon {
+  width: 20px;
+  position: relative;
+  max-height: 100%;
+  z-index: 2;
+}
+.diversity3Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 12px 0 0;
+}
+.joined {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 71px;
+  z-index: 1;
+  margin-left: -8px;
+}
+.workspacePremiumIcon {
+  width: 20px;
+  position: relative;
+  max-height: 100%;
+  z-index: 1;
+}
+.ballet,
+.workspacePremiumWrapper {
+  position: relative;
+  margin-left: -8px;
+}
+.workspacePremiumWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 12px 0 0;
+}
+.ballet {
+  line-height: 22px;
+  display: inline-block;
+  min-width: 42px;
+  z-index: 1;
+}
+.calendarTodayWrapper,
+.frameParent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 11px 0 0;
+  margin-left: -2px;
+  position: relative;
+}
+.calendarTodayWrapper {
+  flex-direction: column;
+  padding: 0 6px 0 0;
+}
+.july152025 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 94px;
+  z-index: 1;
+  margin-left: -2px;
+}
+.statsContainer,
+.titleContainerParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.statsContainer {
+  flex-direction: row;
+  row-gap: 20px;
+  font-size: 14px;
+  font-family: Poppins;
+}
+.titleContainerParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 6px;
+}
+.label {
+  position: relative;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: var(--White-4-dark-theme);
+  text-align: center;
+}
+.primaryButtonMotionmentor {
+  cursor: pointer;
+  border: 0;
+  padding: 18px 0;
+  background-color: transparent;
+  width: 137px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #4acfff, #5f29fe);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.actionButtons,
+.rectangleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 2px;
+}
+.rectangleGroup {
+  flex: 1;
+  border-radius: 0 8px 8px 0;
+  background-color: var(--White-4-dark-theme);
+  flex-direction: column;
+  padding: 12px 20px 16px 23px;
+  box-sizing: border-box;
+  gap: 39px;
+  max-width: 100%;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  text-align: left;
+  font-size: 16px;
+  color: #0f0a1a;
+  font-family: "Playfair Display";
+}
+.frameGroup,
+.frameParent,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 24px;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: 12px;
+  background-color: #1e2238;
+  flex-direction: row;
+  padding: 27px;
+  box-sizing: border-box;
+  min-height: 648px;
+}
+.frameChild1 {
+  width: 94px;
+  height: 94px;
+  position: relative;
+  object-fit: cover;
+}
+.p {
+  margin: 0;
+}
+.classesTaken {
+  margin: 0;
+  align-self: stretch;
+  height: 93px;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  font-family: inherit;
+}
+.frameWrapper1,
+.groupDiv {
+  display: flex;
+  align-items: flex-start;
+}
+.groupDiv {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.frameWrapper1 {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 8px 0 9px;
+}
+.frameParent2,
+.frameParent3,
+.frameWrapper2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent2 {
+  align-items: flex-end;
+  gap: 16px;
+}
+.frameParent3,
+.frameWrapper2 {
+  align-items: flex-start;
+}
+.frameParent3 {
+  align-self: stretch;
+  gap: 16px;
+}
+.frameWrapper2 {
+  padding: 0 9px 0 0;
+}
+.cardContainer,
+.groupFooter {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.groupFooter {
+  width: 781px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 1px 0 0;
+  box-sizing: border-box;
+  gap: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: #fbf8f5;
+  font-family: Poppins;
+}
+.cardContainer {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.rectangleDiv {
+  width: 351px;
+  height: 238px;
+  position: relative;
+  border-radius: 8px;
+  background-color: #1e2238;
+  display: none;
+  max-width: 100%;
+}
+.quickActions {
+  margin: 0;
+  width: 162px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.frameChild5 {
+  height: 40px;
+  width: 311px;
+  position: relative;
+  box-shadow: 0 1px 3.1px -1px rgba(0, 0, 0, 0.35);
+  border-radius: 4px;
+  background-color: #1a1625;
+  border: 1px solid #4acfff;
+  box-sizing: border-box;
+  display: none;
+}
+.playCircleIcon {
+  width: 24px;
+  position: relative;
+  max-height: 100%;
+  z-index: 1;
+}
+.continueLastPractice {
+  position: relative;
+  line-height: 22px;
+  z-index: 1;
+}
+.rectangleParent1 {
+  align-self: stretch;
+  height: 40px;
+  box-shadow: 0 1px 3.1px -1px rgba(0, 0, 0, 0.35);
+  border-radius: 4px;
+  background-color: #1a1625;
+  border: 1px solid #4acfff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6px 14px;
+  gap: 4px;
+  z-index: 1;
+}
+.joinLiveSessions {
+  width: 186px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent5 {
+  flex: 1;
+  flex-direction: column;
+  gap: 16px;
+}
+.actionArea,
+.frameParent5,
+.rectangleContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.actionArea {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 1px;
+  font-size: 16px;
+  font-family: Poppins;
+}
+.rectangleContainer {
+  flex: 1;
+  border-radius: 8px;
+  background-color: #1e2238;
+  flex-direction: column;
+  padding: 16px 19px 20px;
+  gap: 23px;
+}
+.actionsContainer,
+.frameChild8,
+.rectangleContainer {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.actionsContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 8px;
+  color: var(--White-4-dark-theme);
+}
+.frameChild8 {
+  width: 351px;
+  height: 257px;
+  position: relative;
+  border-radius: 8px;
+  background-color: #1e2238;
+  border: 1px solid #4acfff;
+  display: none;
+}
+.h1,
+.iSeeDanceContainer {
+  position: relative;
+  z-index: 1;
+}
+.h1 {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  font-style: italic;
+  font-weight: 400;
+  font-family: inherit;
+}
+.iSeeDanceContainer {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Playfair Display";
+}
+.parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 21px;
+}
+.ruthStDenis {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  font-family: Poppins;
+  z-index: 1;
+}
+.frameChild9,
+.rectangleParent4 {
+  border-radius: 8px;
+  background-color: #1e2238;
+  max-width: 100%;
+}
+.rectangleParent4 {
+  align-self: stretch;
+  border: 1px solid #4acfff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 33px 21px 23px 22px;
+  gap: 16px;
+  text-align: center;
+  font-size: 40px;
+  font-family: Urbanist;
+}
+.frameChild9 {
+  width: 351px;
+  height: 321px;
+  position: relative;
+  display: none;
+  z-index: 0;
+}
+.todaysGoals {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.goalHeader {
+  width: 156px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+  box-sizing: border-box;
+}
+.frameChild10 {
+  height: 28px;
+  width: 29px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+.goalHeaderParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.keepGoingYoureDoingGreatWrapper {
+  flex-direction: row;
+  padding: 0 1px;
+  font-size: 16px;
+  font-family: Poppins;
+}
+.goalsContainer,
+.goalsContainerWrapper,
+.keepGoingYoureDoingGreatWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.goalsContainer {
+  flex: 1;
+  flex-direction: column;
+  gap: 1px;
+}
+.goalsContainerWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 14px 0 13px;
+  font-size: 20px;
+  font-family: "Playfair Display";
+}
+.complete30Min {
+  position: relative;
+  text-decoration: line-through;
+  line-height: 22px;
+  z-index: 1;
+}
+.practiceVideo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 44px 4px;
+}
+.radioButtonsIcon {
+  height: 100%;
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: -46px;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+.radioButtonsIcon1 {
+  height: 48px;
+  width: 48px;
+  z-index: 1;
+}
+.radioButtonsParent {
+  margin: 0 !important;
+  position: absolute;
+  top: 121px;
+  left: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.join2Community {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+  z-index: 1;
+}
+.communityDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 45px 0 44px;
+}
+.join5Challenges {
+  position: absolute;
+  top: 13px;
+  left: 44px;
+  line-height: 22px;
+  z-index: 1;
+}
+.join5ChallengesParent {
+  width: 230px;
+  height: 48px;
+  position: relative;
+}
+.completed {
+  width: 186px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 16px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.frameChild11,
+.vectorParent {
+  height: 7px;
+  border-radius: 16px;
+  z-index: 1;
+}
+.frameChild11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #4acfff, #5f29fe);
+  width: 165px;
+}
+.vectorParent {
+  align-self: stretch;
+  position: relative;
+  background-color: #1a1625;
+}
+.completedParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.communityDetailsParent,
+.completionData,
+.frameParent6 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.completionData {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 14px;
+  text-align: right;
+  font-size: 14px;
+}
+.communityDetailsParent,
+.frameParent6 {
+  flex-direction: column;
+}
+.frameParent6 {
+  align-self: stretch;
+  gap: 8px;
+}
+.communityDetailsParent {
+  width: 325px;
+  gap: 12px;
+  max-width: 100%;
+}
+.rectangleParent5 {
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: #1e2238;
+  flex-direction: column;
+  padding: 15px 6px 20px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 21px;
+  font-size: 16px;
+  font-family: Poppins;
+}
+.actionsContainerParent,
+.challengeCards,
+.rectangleParent5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.actionsContainerParent {
+  width: 351px;
+  flex-direction: column;
+  gap: 32px;
+  text-align: left;
+  font-size: 20px;
+  color: #fbf8f5;
+  font-family: "Playfair Display";
+}
+.challengeCards {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 40px;
+}
+@media screen and (max-width: 1050px) {
+  .h1 {
+    font-size: 32px;
+  }
+  .actionsContainerParent {
+    flex: 1;
+  }
+  .challengeCards {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .statsContainer {
+    flex-wrap: wrap;
+  }
+  .rectangleGroup {
+    gap: 19px;
+    min-width: 100%;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .rectangleParent {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .groupFooter {
+    flex-wrap: wrap;
+  }
+  .cardContainer {
+    min-width: 100%;
+  }
+  .challengeCards {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .primaryButtonMotionmentor {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .classesTaken {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .cardContainer {
+    gap: 20px;
+  }
+  .quickActions {
+    font-size: 16px;
+  }
+  .h1 {
+    font-size: 24px;
+  }
+  .todaysGoals {
+    font-size: 16px;
+  }
+  .communityDetails,
+  .practiceVideo {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .actionsContainerParent {
+    gap: 16px;
+    min-width: 100%;
+  }
+}

@@ -1,0 +1,18 @@
+.label {
+  position: relative;
+}
+.root {
+  border-radius: 24px;
+  background-color: #1a1625;
+  border: 1px solid #352e47;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 16px;
+  text-align: left;
+  font-size: 16px;
+  color: #fbf8f5;
+  font-family: Poppins;
+}

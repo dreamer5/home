@@ -1,0 +1,167 @@
+.featuredChallenges,
+.viewAll {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.viewAll {
+  align-self: stretch;
+  text-decoration: underline;
+  line-height: 28px;
+  font-weight: 400;
+  background: linear-gradient(90deg, #4acfff, #5f29fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.viewAllWrapper {
+  width: 94px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5px 0 0;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: 20px;
+  font-family: Poppins;
+}
+.featuredChallengesParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.handPickedChallenges {
+  margin: 0;
+  width: 654px;
+  position: relative;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: Poppins;
+  color: var(--text-grey);
+  display: inline-block;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: 5px;
+}
+.frameGroup,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  width: 780px;
+  flex-direction: row;
+  padding: 0 1px 8px;
+  box-sizing: border-box;
+}
+.frameParent {
+  width: 1196px;
+  flex-direction: column;
+  gap: 32px;
+  text-align: left;
+  font-size: 28px;
+  color: var(--White-4-dark-theme);
+  font-family: "Playfair Display";
+}
+.frameChild,
+.homeDesktopInner {
+  align-self: stretch;
+  max-width: 100%;
+}
+.homeDesktopInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 40px;
+  box-sizing: border-box;
+}
+.frameChild {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.motionMentorAll {
+  position: relative;
+  line-height: 22px;
+}
+.motionMentorAllRightsReseWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 589px 0 590px;
+}
+.homeDesktop,
+.vectorParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.vectorParent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 24px;
+}
+.homeDesktop {
+  width: 100%;
+  position: relative;
+  background-color: #0f0a1a;
+  overflow: hidden;
+  align-items: flex-end;
+  padding: 0 0 65px;
+  box-sizing: border-box;
+  gap: 39px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 14px;
+  color: #fbf8f5;
+  font-family: Urbanist;
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    gap: 16px;
+  }
+  .motionMentorAllRightsReseWrapper {
+    padding-left: 295px;
+    padding-right: 294px;
+    box-sizing: border-box;
+  }
+  .homeDesktop {
+    gap: 19px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .featuredChallenges {
+    font-size: 22px;
+  }
+  .viewAll {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .featuredChallengesParent {
+    flex-wrap: wrap;
+  }
+  .handPickedChallenges {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .motionMentorAllRightsReseWrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

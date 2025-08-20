@@ -1,0 +1,202 @@
+.headerMotionmentorPlayfairpChild {
+  height: 90px;
+  width: 1443px;
+  position: relative;
+  background-color: rgba(15, 10, 26, 0.9);
+  display: none;
+  max-width: 100%;
+}
+.navigationChild {
+  height: 53.3px;
+  width: 53.3px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.motionmentor {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  z-index: 1;
+  font-family: inherit;
+}
+.motionMentorLink,
+.navigation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.motionMentorLink {
+  flex-direction: column;
+  padding: 12px 0 0;
+}
+.navigation {
+  flex-direction: row;
+  gap: 8px;
+}
+.frameChild {
+  height: 33px;
+  width: 97px;
+  position: relative;
+  border-radius: 4px;
+  background-color: #1e2238;
+  display: none;
+}
+.cottageIcon {
+  width: 24px;
+  max-height: 100%;
+}
+.cottageIcon,
+.home {
+  position: relative;
+  z-index: 2;
+}
+.homeLink,
+.rectangleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 0 0;
+}
+.rectangleParent {
+  width: 97px;
+  border-radius: 4px;
+  background-color: #1e2238;
+  flex-direction: row;
+  padding: 4px 9px 3px;
+  box-sizing: border-box;
+  gap: 4px;
+  z-index: 1;
+}
+.targetIcon {
+  width: 24px;
+  max-height: 100%;
+}
+.challenges,
+.targetIcon {
+  position: relative;
+}
+.challengeSport,
+.targetParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.challengeSport {
+  flex-direction: column;
+  padding: 1px 0 0;
+}
+.targetParent {
+  flex-direction: row;
+  gap: 4px;
+  cursor: pointer;
+  z-index: 1;
+}
+.menuItemPair {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 12px 3px 0;
+}
+.boltParent,
+.menuItemPair,
+.menuItemPair1 {
+  display: flex;
+  align-items: flex-start;
+}
+.boltParent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 3px;
+  cursor: pointer;
+  z-index: 1;
+}
+.menuItemPair1 {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 3px;
+}
+.menuItems {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.header,
+.menu {
+  display: flex;
+  max-width: 100%;
+}
+.menu {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 7.3px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Poppins;
+}
+.header {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 77.7px;
+}
+.lightDarkMode {
+  width: 24px;
+  position: relative;
+  max-height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.lightDarkModeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 14.3px;
+}
+.headerMotionmentorPlayfairp {
+  margin-right: -1px;
+  align-self: stretch;
+  background-color: rgba(15, 10, 26, 0.9);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 21px 20px 15.7px 25px;
+  box-sizing: border-box;
+  gap: 297px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #fbf8f5;
+  font-family: "Playfair Display";
+}
+@media screen and (max-width: 1200px) {
+  .headerMotionmentorPlayfairp {
+    gap: 148px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .header {
+    gap: 39px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .headerMotionmentorPlayfairp {
+    gap: 74px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header {
+    gap: 19px;
+  }
+  .headerMotionmentorPlayfairp {
+    gap: 37px;
+  }
+}

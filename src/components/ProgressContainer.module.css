@@ -1,0 +1,751 @@
+.lastChallenges,
+.viewAll {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.viewAll {
+  align-self: stretch;
+  text-decoration: underline;
+  line-height: 28px;
+  font-weight: 400;
+  background: linear-gradient(90deg, #4acfff, #5f29fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+.challengeAction {
+  width: 94px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5px 0 0;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: 20px;
+  font-family: Poppins;
+}
+.challengeTitleArea {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.lastChallengesYouve {
+  margin: 0;
+  width: 654px;
+  position: relative;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: Poppins;
+  display: inline-block;
+  max-width: 100%;
+}
+.challengeTitleAreaParent {
+  width: 1236px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+  gap: 5px;
+  max-width: 100%;
+}
+.challengeTypeChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.challengeType {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 13px 14px 131px;
+  box-sizing: border-box;
+  position: relative;
+  min-width: 185px;
+}
+.frameChild {
+  width: 542px;
+  height: 163px;
+  position: relative;
+  border-radius: 0 8px 8px 0;
+  background-color: #fbf8f5;
+  display: none;
+  max-width: 100%;
+}
+.bySarahMartinez,
+.explosiveJump {
+  position: relative;
+  z-index: 1;
+}
+.bySarahMartinez {
+  align-self: stretch;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Poppins;
+  margin-top: -2px;
+}
+.challengeHeaderInfo,
+.challengeHeaderInfoWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.challengeHeaderInfo {
+  flex: 1;
+  flex-direction: column;
+}
+.challengeHeaderInfoWrapper {
+  width: 188px;
+  flex-direction: row;
+  padding: 0 1px;
+  box-sizing: border-box;
+}
+.scheduleIcon {
+  width: 18px;
+  position: relative;
+  max-height: 100%;
+  z-index: 1;
+}
+.scheduleArea {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 7px 0 0;
+}
+.hour {
+  position: relative;
+  line-height: 22px;
+  white-space: pre-wrap;
+  z-index: 1;
+  margin-left: -2px;
+}
+.diversity3Icon {
+  width: 20px;
+  position: relative;
+  max-height: 100%;
+  z-index: 2;
+}
+.diversityArea {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 12px 0 0;
+}
+.joined {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 71px;
+  z-index: 2;
+  margin-left: -8px;
+}
+.workspacePremiumIcon {
+  width: 20px;
+  position: relative;
+  max-height: 100%;
+  z-index: 1;
+}
+.ballet {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 42px;
+  z-index: 1;
+}
+.calendarTodayWrapper,
+.diversityAreaParent,
+.workspacePremiumParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.workspacePremiumParent {
+  flex: 1;
+  flex-direction: row;
+  gap: 4px;
+  margin-left: -8px;
+}
+.calendarTodayWrapper,
+.diversityAreaParent {
+  margin-left: -2px;
+}
+.diversityAreaParent {
+  flex: 1;
+  flex-direction: row;
+  padding: 0 11px 0 0;
+  box-sizing: border-box;
+  min-width: 107px;
+}
+.calendarTodayWrapper {
+  flex-direction: column;
+  padding: 0 6px 0 0;
+}
+.july152025 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 94px;
+  z-index: 1;
+  margin-left: -2px;
+}
+.challengeStats,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.challengeStats {
+  align-self: stretch;
+  flex-direction: row;
+  row-gap: 20px;
+  font-size: 14px;
+  font-family: Poppins;
+}
+.frameParent {
+  flex-direction: column;
+  gap: 6px;
+  max-width: 100%;
+}
+.view {
+  position: relative;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #fbf8f5;
+  text-align: center;
+}
+.primaryButtonMotionmentor {
+  cursor: pointer;
+  border: 0;
+  padding: 18px 0;
+  background-color: transparent;
+  width: 137px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #4acfff, #5f29fe);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.primaryButtonMotionmentorWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 2px;
+}
+.challengeDetails,
+.rectangleParent {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleParent {
+  border-radius: 0 8px 8px 0;
+  background-color: #fbf8f5;
+  flex-direction: column;
+  padding: 12px 23px 16px;
+  box-sizing: border-box;
+  gap: 39px;
+  min-width: 352px;
+}
+.challengeDetails {
+  flex-direction: row;
+  min-width: 473px;
+  row-gap: 20px;
+}
+.byMarkMaciel,
+.expressiveFreestyle {
+  position: relative;
+  z-index: 2;
+}
+.byMarkMaciel {
+  align-self: stretch;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Poppins;
+  z-index: 3;
+  margin-top: -2px;
+}
+.challengeHeaderInfoSecondar {
+  width: 186px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hipHop,
+.joined1,
+.july102025,
+.min {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 51px;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.hipHop,
+.joined1,
+.july102025 {
+  min-width: 67px;
+}
+.hipHop,
+.july102025 {
+  min-width: 55px;
+}
+.july102025 {
+  min-width: 90px;
+}
+.challengeTime {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 28px;
+}
+.challengeStatsSecondary {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 22px;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: 14px;
+  font-family: Poppins;
+}
+.challengeActionTertiary,
+.challengeHeaderInfoSecondarParent,
+.challengeStatsSecondary {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.challengeHeaderInfoSecondarParent {
+  flex-direction: column;
+  gap: 6px;
+  max-width: 117%;
+}
+.challengeActionTertiary {
+  flex-direction: row;
+  padding: 0 1px;
+}
+.detailBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 8px 8px 0;
+  background-color: #fbf8f5;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.calendarTodayIcon1,
+.scheduleIcon1,
+.workspacePremiumIcon1 {
+  position: absolute;
+  top: 58px;
+  left: 279px;
+  width: 20px;
+  height: 20px;
+  z-index: 2;
+}
+.scheduleIcon1,
+.workspacePremiumIcon1 {
+  left: 196px;
+}
+.scheduleIcon1 {
+  top: 59px;
+  left: 23px;
+  width: 18px;
+  height: 18px;
+}
+.challengeDetailsFullChild,
+.diversity3Icon1 {
+  position: absolute;
+  top: 58px;
+  left: 101px;
+  width: 20px;
+  height: 20px;
+  z-index: 2;
+}
+.challengeDetailsFullChild {
+  top: 17px;
+  left: 496px;
+  width: 29px;
+  height: 28px;
+  object-fit: contain;
+}
+.challengeDetailsFull {
+  width: 542px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -178px;
+  bottom: 0;
+}
+.challengeCardSecondary,
+.challengeInfo,
+.challengeSummarySecondary {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.challengeSummarySecondary {
+  width: 364px;
+  flex-direction: column;
+  padding: 12px 24px 16px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 40px;
+  font-size: 16px;
+  color: #0f0a1a;
+  font-family: "Playfair Display";
+}
+.challengeCardSecondary,
+.challengeInfo {
+  flex-direction: row;
+}
+.challengeCardSecondary {
+  row-gap: 20px;
+  font-size: 12px;
+  color: #1a7441;
+  font-family: Poppins;
+}
+.challengeInfo {
+  gap: 40px;
+  min-width: 1316px;
+  flex-shrink: 0;
+}
+.challengeTitleTertiaryChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 8px 8px 0;
+  background-color: #fbf8f5;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.rhytmPosture {
+  position: absolute;
+  top: 12px;
+  left: 24px;
+  display: inline-block;
+  min-width: 128px;
+  z-index: 2;
+}
+.byAnneWine {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+  z-index: 3;
+}
+.byAnneWineWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 4px 0 1px;
+}
+.scheduleIcon2 {
+  width: 18px;
+  position: relative;
+  max-height: 100%;
+  z-index: 2;
+}
+.scheduleWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.joined2,
+.min1 {
+  position: relative;
+  line-height: 22px;
+  z-index: 2;
+}
+.min1 {
+  white-space: pre-wrap;
+}
+.joined2 {
+  display: inline-block;
+  min-width: 68px;
+}
+.authorDetails,
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4.3px;
+}
+.authorDetails {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 6px;
+}
+.label {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.primaryButtonMotionmentor2 {
+  width: 137px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #4acfff, #5f29fe);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 0;
+  box-sizing: border-box;
+}
+.challengeScheduleLatin,
+.motionMentorButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.motionMentorButton {
+  flex-direction: row;
+  padding: 0 2px;
+  text-align: center;
+  color: #fbf8f5;
+}
+.challengeScheduleLatin {
+  flex: 1;
+  flex-direction: column;
+  gap: 40px;
+}
+.latin {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 39px;
+  z-index: 2;
+}
+.challengeTimesLatin {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 27px 0 0;
+}
+.july222025 {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+  z-index: 2;
+}
+.challengeLatin,
+.challengeTimesLatin1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.challengeTimesLatin1 {
+  width: 108px;
+  flex-direction: column;
+  padding: 27px 0 0;
+  box-sizing: border-box;
+}
+.challengeLatin {
+  position: absolute;
+  top: 31px;
+  left: 23px;
+  width: 370px;
+  flex-direction: row;
+  gap: 4px;
+  font-size: 14px;
+  font-family: Poppins;
+}
+.challengeTitleTertiary {
+  height: 163px;
+  flex: 1;
+  position: relative;
+  border-radius: 0 8px 8px 0;
+  background-color: #fbf8f5;
+  min-width: 352px;
+  max-width: 100%;
+  z-index: 1;
+}
+.challengeCardTertiary {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 727px;
+  flex-shrink: 0;
+  row-gap: 20px;
+  max-width: 100%;
+}
+.challengeCard,
+.challengesList {
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.challengeCard {
+  width: 1316px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  gap: 218px;
+  max-width: 100%;
+}
+.challengesList {
+  align-self: stretch;
+  padding: 0 0 0 1px;
+  text-align: left;
+  font-size: 16px;
+  color: #0f0a1a;
+  font-family: "Playfair Display";
+}
+.challengesHeader,
+.challengesList,
+.progressContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.challengesHeader {
+  flex: 1;
+  flex-direction: column;
+  gap: 24px;
+}
+.progressContainer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 1px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 28px;
+  color: #fbf8f5;
+  font-family: "Playfair Display";
+}
+@media screen and (max-width: 1400px) {
+  .challengeInfo {
+    flex: 1;
+    min-width: 100%;
+  }
+  .challengeCardTertiary {
+    flex: 1;
+  }
+  .challengeCard {
+    gap: 109px;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .challengeCardSecondary {
+    flex: 1;
+  }
+  .challengeInfo {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 825px) {
+  .challengeType {
+    flex: 1;
+  }
+  .challengeDetails {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .challengeSummarySecondary {
+    flex: 1;
+  }
+  .challengeCardSecondary {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .challengeInfo {
+    gap: 20px;
+  }
+  .challengeCardTertiary {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .challengeCard {
+    gap: 54px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .lastChallenges {
+    font-size: 22px;
+  }
+  .viewAll {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .challengeTitleArea {
+    flex-wrap: wrap;
+  }
+  .lastChallengesYouve {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .challengeStats {
+    flex-wrap: wrap;
+  }
+  .primaryButtonMotionmentor {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .rectangleParent {
+    gap: 19px;
+    min-width: 100%;
+  }
+  .challengeTime {
+    flex-wrap: wrap;
+  }
+  .challengeSummarySecondary {
+    gap: 20px;
+    min-width: 100%;
+  }
+  .challengeTitleTertiary {
+    min-width: 100%;
+  }
+  .challengeCard {
+    gap: 27px;
+  }
+}
